@@ -4,10 +4,12 @@ import ON from './light.css';
 
 
 function Body() {
+
+    let [light,setLight]= useState("OFF");
     return (
       <div className="App ${light=='OFF' ? 'OFF' : 'ON'}">
 
-          let [light,setLight]= useState("OFF");
+        
        
          Light Status = light[0]
 
