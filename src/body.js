@@ -13,7 +13,7 @@ function Body() {
 
         
        
-         Light Status = {ligh==='ON' ? 'On' : 'Off'}
+         Light Status = {light==='ON' ? 'On' : 'Off'}
 
          <button onClick={() => setLight('ON')}>ON</button>
          <button onClick={()=> setLight('OFF')}>OFF</button>
