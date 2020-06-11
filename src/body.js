@@ -9,7 +9,7 @@ function Body() {
 
     let [light,setLight]= useState('OFF');
     return (
-      <div className={`App ${light==='ON' ? 'ONlight' : 'offlight '}`}>
+      <div className={`App ${light==='ON' ? 'ONlight' : 'offlight'}`}>
 
         
        
