@@ -8,16 +8,16 @@ import './App.css';
 
 function Body() {
 
-    let [light,setLight]= useState('OFF');
+    let [light,setLight]= useState(true);
     return (
-      <div className={'App${light=="OFF"? "OFFlight" : "ONlight"}'}>
+      <div className={'App${light? "OFFlight" : "ONlight"}'}>
 
         
        
          Light Status = {light};
 
-         <button onClick={() => setLight('ON')}>ON</button>
-         <button onClick={()=> setLight('OFF')}>OFF</button>
+         <button onClick={() => setLight(true)}>ON</button>
+         <button onClick={()=> setLight(false)}>OFF</button>
          
        
       </div>
