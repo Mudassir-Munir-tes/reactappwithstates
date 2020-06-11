@@ -10,11 +10,11 @@ function Body() {
 
     let [light,setLight]= useState('OFF');
     return (
-      <div className={`App${light=='OFF'? 'OFFlight' : 'ONlight'}`}>
+      <div className={`App${light==='OFF'? 'OFFlight' : 'ONlight'}`}>
 
         
        
-         Light Status = {light=="OFF"? "OFF" : "ON"}
+         Light Status = {light==='OFF'? 'OFF' : 'ON'}
 
          <button onClick={() => setLight('ON')}>ON</button>
          <button onClick={()=> setLight('OFF')}>OFF</button>
