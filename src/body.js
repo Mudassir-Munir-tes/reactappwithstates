@@ -1,8 +1,7 @@
 import React,{useState} from 'react';
 import './light.css';
 import './App.css';
-import OFFlight from './light.css';
-import ONlight from './light';
+
 
 
 
@@ -10,14 +9,14 @@ function Body() {
 
     let [light,setLight]= useState(false);
     return (
-      <div className={`App${light? 'OFFlight' : 'ONlight'}`}>
+      <div className={`App ${light ? 'onlight' : ' '}`}>
 
         
        
-         Light Status = {light? 'OFF' : 'ON'}
+         Light Status = {light? 'On' : 'Off'}
 
-         <button onClick={() => setLight(light=true)}>ON</button>
-         <button onClick={()=> setLight(light=false)}>OFF</button>
+         <button onClick={() => setLight(true)}>ON</button>
+         <button onClick={()=> setLight(false)}>OFF</button>
          
        
       </div>
