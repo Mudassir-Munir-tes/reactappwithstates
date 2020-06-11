@@ -1,7 +1,7 @@
-.ON{
+.ONlight{
     background-color: blue;
 }
-.OFF{
+.OFFlight{
     background-color: black;
     color:white;
 }
