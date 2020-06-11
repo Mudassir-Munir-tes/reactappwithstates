@@ -1,9 +1,10 @@
 .ONlight{
     background-color: blue;
-    height: 100% ;
+    height: 100vh;
 }
 .offlight{
     background-color: black;
     color:white;
+    min-height: 100vh;
     
 }
