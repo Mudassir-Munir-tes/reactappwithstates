@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import './light.css';
 import './App.css';
+import Temperatur from './Temperature.js'
 
 
 
@@ -15,10 +16,10 @@ function Body() {
        
          Light Status = {light==='ON' ? 'On' : 'Off'}
 
-         <button onClick={() => setLight('ON')}>ON</button>
+         <button onClick={() => setLight('ON')}>ON</button><br></br>
          <button onClick={()=> setLight('OFF')}>OFF</button>
          
-       
+       <Temperature />
       </div>
     );
   }
