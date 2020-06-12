@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import './light.css';
 
 import './App.css';
 
@@ -10,10 +11,11 @@ function Temperature() {
 
         
        
-         Temperature of Room is = {temp} celsius!
+        <h3>Temperature of Room is = {temp} celsius!</h3> 
+         <br></br>
 
-         <button onClick={() => setTemp(++temp)}>Increase Temperature</button><br></br>
-         <button onClick={()=> setLight(--temp)}>Decrease Temperature</button>
+         <button className="button1" onClick={() => setTemp(++temp)}>Increase Temperature</button><br></br>
+         <br></br><button className="button1" onClick={()=> setTemp(--temp)}>Decrease Temperature</button>
          
        
       </div>

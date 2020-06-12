@@ -9,3 +9,29 @@
     
     
 }
+.button{
+    width: 25%;
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    font-size: 20px;
+    font-style: oblique;
+    border-radius: 4px;
+    border: violet;
+    background-color: tomato;
+    color: white;
+    
+    
+}
+.button1{
+    width: 25%;
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    font-size: 20px;
+    font-style: oblique;
+    border-radius: 4px;
+    border: violet;
+    background-color: purple;
+    color: white;
+    
+    
+}

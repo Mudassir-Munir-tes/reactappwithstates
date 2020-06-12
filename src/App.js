@@ -5,7 +5,7 @@ import Title from './Title.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App App-header">
      
         <img src={logo} className="App-logo" alt="logo" />
         
